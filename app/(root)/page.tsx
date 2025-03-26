@@ -1,8 +1,14 @@
+import ProductList from "@/components/shared/product/product-list";
+import sampleData from "@/db/sample-data";
 const HomePage = () => {
   return (
-    <div className="bg-amber-600 flex-center">
-      <div>text</div>
-    </div>
+    <>
+      <ProductList
+        data={sampleData.products}
+        title={"New Arrivals"}
+        limit={4}
+      />
+    </>
   );
 };
 
