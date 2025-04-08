@@ -10,7 +10,6 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-SheetTrigger;
 
 const Menu = () => {
   return (
